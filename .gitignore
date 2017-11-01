@@ -2,7 +2,6 @@
 ### Java template
 # Compiled class file
 *.class
-out
 
 # Log file
 *.log
@@ -28,12 +27,3 @@ out
 hs_err_pid*
 
 /out/
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/WEB-INF/
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/WEB-INF/web.xml
-/out/artifacts/
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/META-INF/
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/WEB-INF/lib/
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/WEB-INF/classes/
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/WEB-INF/data.txt
-/out/artifacts/Star_Wars_Word_Generator_war_exploded/index.jsp
