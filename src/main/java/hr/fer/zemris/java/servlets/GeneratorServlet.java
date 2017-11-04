@@ -19,7 +19,6 @@ public class GeneratorServlet extends HttpServlet {
 		List<String> data = (List<String>) req.getServletContext().getAttribute("data");
 		int rand = Utility.getRandomInt(0, data.size() - 1);
 
-		req.getSession().setAttribute("word", data.get(rand));
-		req.getRequestDispatcher("/index.jsp").forward(req, resp);
+		resp.getWriter().write(data.get(rand));
 	}
 }
