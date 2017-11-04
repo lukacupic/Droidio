@@ -12,16 +12,15 @@
 <body>
 
 <div class=container1>
-    <p>Welcome! Click the button to generate a random Star Wars word :)</p>
-    <br><br><br>
-
-    <form action="<%=request.getContextPath()%>/servlets/generator" class=container1>
-        <button>Generate!</button>
-    </form>
-
+    <p><b>Star Wars Word Generator</b></p>
+    <br>
     <% if (word != null) { %>
-        <p>The generated word is: <b><%=word%></b></p>
+    <p><%=word%></p>
     <% } %>
+    <br>
+    <form action="<%=request.getContextPath()%>/servlets/generator" class=container1>
+        <button>Make word</button>
+    </form>
 </div>
 </body>
 </html>
