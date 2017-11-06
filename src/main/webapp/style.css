@@ -7,20 +7,28 @@ h1 {
     text-align: center;
 }
 
-div.container1 {
+div.center {
     font-family: "Helvetica-Normal", sans-serif;
     font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: 0 -50% 0 0;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
-div.container1 button {
+div.center button {
     font-family: serif;
     font-size: 16px;
     position: absolute;
     transform: translate(-50%, -50%);
+}
+
+div.bottom {
+    font-family: "Helvetica-Normal", sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
