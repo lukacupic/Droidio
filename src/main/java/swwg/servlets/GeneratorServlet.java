@@ -1,6 +1,6 @@
-package hr.fer.zemris.java.servlets;
+package swwg.servlets;
 
-import hr.fer.zemris.java.servlets.util.Utility;
+import swwg.util.RandUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -23,7 +23,7 @@ public class GeneratorServlet extends HttpServlet {
 	@SuppressWarnings("unchecked")
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		List<String> data = (List<String>) req.getServletContext().getAttribute("data");
-		int rand = Utility.getRandomInt(0, data.size() - 1);
+		int rand = RandUtil.getRandomInt(0, data.size() - 1);
 
 		resp.getWriter().write(data.get(rand));
 	}

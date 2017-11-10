@@ -1,4 +1,4 @@
-package hr.fer.zemris.java.servlets;
+package swwg.servlets;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;

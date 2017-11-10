@@ -1,4 +1,4 @@
-package hr.fer.zemris.java.servlets.util;
+package swwg.util;
 
 import java.util.Random;
 
