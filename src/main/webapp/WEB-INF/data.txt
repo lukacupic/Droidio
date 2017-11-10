@@ -1,34 +1,284 @@
-Darth Vader
-Millennium Falcon
+A New Hope
+A-wing
+AA-9 Coruscant Freighter
 AT-AT
-Lightsaber
-The Force
+AT-RT
+AT-ST
+AT-TE
+Adi Gallia
+Admiral Gial Ackbar
+Ahsoka Tano
+Alderaan
+Aleen Minor
+Aleena
+Anakin Skywalker
+Armored Assault Tank
+Arvel Crynyd
+Attack of the Clones
+Aayla Secura
+B-Wing
+BB-8
+Bail Prestor Organa
+Banking Clan Frigate
+Bantha-II Cargo Skiff
+Barriss Offee
+Belbullab-22 Starfighter
+Ben Quadinaros
+Beru Lars
+Besalisk
+Bespin
+Bestine IV
+Bib Fortuna
+Biggs Darklighter
+Boba Fett
+Bossk
+C-3PO
+C-9979 Landing Craft
+CR90 Corvette
+Calamari Cruiser
+Captain Phasma
+Cato Neimoidia
+Cerea
+Cerean
+Chagrian
+Champala
+Chandrila
+Chewbacca
+Clawdite
+Cliegg Lars
+Clone Turbo Tank
+Concord Dawn
+Cordé
+Corellia
+Corporate Alliance Tank Droid
+Coruscant
+Dagobah
+Dantooine
+Darth Maul
+Darth Vader
+Dathomir
+Death Star
+Dexter Jettster
+Dooku
+Dorin
+Dormé
+Droid
+Droid Control Ship
+Droid Gunship
+Droid Tri-Fighter
+Dud Bolt
+Dug
+EF76 Nebulon-B Escort Frigate
+Eeth Koth
+Emergency Firespeeder
+Endor
+Eriadu
+Ewok
+Executor
+Felucia
+Finis Valorum
+Finn
+Flitknot Speeder
 Force Ghost
+Gasgano
+General Grievous
+Geonosian
+Geonosian Starfighter
+Geonosis
+Glee Anselm
+Greedo
+Gregar Typho
+Grievous
+Gungan
+H-type Nubian Yacht
+Han Solo
+Haruun Kal
+Hoth
+Human
+Hutt
+IG-88
+Iktotchi
+Imperial Speeder Bike
+Imperial Shuttle
+Iridonia
+J-Type Diplomatic Barge
+Jabba Desilijic Tiure
+Jabba the Hutt
+Jakku
+Jango Fett
+Jar Jar Binks
+Jawa
 Jedi
-Sith
+Jedi Interceptor
 Jedi Master
 Jedi Mind Trick
-Order 66
-TIE Fighter
-BB-8
-Podracing
-Mos Eisley
-Ewok
-Separatist
-Sandpeople
-R2-D2
-C-3PO
-Tatooine
-Jawa
-Jabba the Hutt
-Bobba Fett
-General Grievous
-Death Star
-Palpatine
-Han Solo
-Midi-chlorians
+Jedi starfighter
+Jek Tono Porkins
+Jocasta Nu
+Kalee
+Kaleesh
+Kamino
+Kaminoan
+Kashyyyk
+Kel Dor
+Ki-Adi-Mundi
 Kit Fisto
-Ahsoka Tano
-Luke Skywalker
-Leia Organa
+Koro-2 Exodrive Airspeeder
 Kylo Ren
+LAAT/c
+LAAT/i
+Lama Su
+Lando Calrissian
+Leia Organa
+Lightsaber
+Lobot
+Luke Skywalker
+Luminara Unduli
+Mace Windu
+Malastare
+Mas Amedda
+Midi-chlorians
+Millennium Falcon
+Mirial
+Mirialan
+Mon Cala
+Mon Calamari
+Mon Mothma
+Mos Eisley
+Multi-Troop Transport
+Mustafar
+Muun
+Muunilinst
+Mygeeto
+Naboo
+Naboo Royal Starship
+Naboo Fighter
+Naboo Star Skiff
+Nal Hutta
+Nautolan
+Neimodian
+Neimoidian Shuttle
+Nien Nunb
+Nute Gunray
+Obi-Wan Kenobi
+Oevvaor Jet Catamaran
+Ojom
+Ord Mantell
+Order 66
+Owen Lars
+Padmé Amidala
+Palpatine
+Pau'an
+Plo Koon
+Podracing
+Poe Dameron
+Poggle the Lesser
+Polis Massa
+Quarsh Panaka
+Quermia
+Quermian
+Qui-Gon Jinn
+R2-D2
+R4-P17
+R5-D4
+Raddaugh Gnasp Fluttercraft
+Ratts Tyerell
+Raymus Antilles
+Rebel Transport
+Republic Assault Ship
+Republic Cruiser
+Republic Attack Cruiser
+Return of the Jedi
+Revenge of the Sith
+Rey
+Ric Olié
+Rodia
+Rodian
+Roos Tarpals
+Rugor Nass
+Ryloth
+SPHA
+Saesee Tiin
+Sail Barge
+Saleucami
+San Hill
+Sand Crawler
+Sandpeople
+Scimitar
+Sebulba
+Sentinel-class Landing Craft
+Separatist
+Serenno
+Shaak Ti
+Shili
+Shmi Skywalker
+Single Trooper Aerial Platform
+Sith
+Sith Speeder
+Skako
+Skakoan
+Slave I
+Sly Moore
+Snowspeeder
+Socorro
+Solar Sailer
+Star Destroyer
+Stewjon
+Storm IV Twin-Pod Cloud Car
+Sullust
+Sullustan
+T-16 Skyhopper
+T-70 X-Wing Fighter
+TIE Advanced X1
+TIE Fighter
+TIE Bomber
+TIE/IN Interceptor
+TIE/LN Starfighter
+Tarfful
+Tatooine
+Taun We
+The Empire Strikes Back
+The Force
+The Force Awakens
+The Phantom Menace
+Theta-Class T-2C Shuttle
+Tholoth
+Tholothian
+Tion Medon
+Togruta
+Toong
+Toydaria
+Toydarian
+Trade Federation Cruiser
+Trandosha
+Trandoshan
+Tribubble Bongo
+Troiken
+Tsmeu-6 Personal Wheel Bike
+Tund
+Twi'lek
+Umbara
+Utapau
+V-wing
+Vulpter
+Vulptereen
+Vulture Droid
+Wat Tambor
+Watto
+Wedge Antilles
+Wicket Systri Warrick
+Wilhuff Tarkin
+Wookiee
+X-34 Landspeeder
+X-Wing
+XJ-6 Airspeeder
+Xexto
+Y-wing
+Yarael Poof
+Yavin IV
+Yoda
+Yoda's species
+Zabrak
+Zam Wesell
+Zephyr-G Swoop Bike
+Zolan
