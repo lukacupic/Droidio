@@ -10,6 +10,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * The servlet used for generating and returning a random word from the
+ * context of the servlet.
+ *
+ * @author Luka Čupić
+ */
 @WebServlet("/servlets/generator")
 public class GeneratorServlet extends HttpServlet {
 

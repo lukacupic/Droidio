@@ -1,5 +1,6 @@
 package hr.fer.zemris.java.servlets;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
@@ -8,16 +9,22 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+/**
+ * The context initializer used to collect the words from the database
+ * and store it into the {@link ServletContext} for the current session.
+ *
+ * @author Luka Cupic
+ */
 @WebListener
 public class InitializationServlet implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent servletContextEvent) {
-		String filepath = servletContextEvent.getServletContext().getRealPath("/WEB-INF/data.txt");
+		String path = servletContextEvent.getServletContext().getRealPath("/WEB-INF/data.txt");
 
 		List<String> data = null;
 		try {
-			data = Files.readAllLines(Paths.get(filepath));
+			data = Files.readAllLines(Paths.get(path));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
