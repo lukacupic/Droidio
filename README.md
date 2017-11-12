@@ -3,4 +3,4 @@ Using this generator, you can create your very own randomized words from the vas
 
 Ideal for Pictionary-like games, or just random geeky fun :D
 
-The newest version of the application can be accessed [here](starwarswordgenerator.azurewebsites.net).
+The newest version of the application can be accessed [here](https://starwarswordgenerator.azurewebsites.net/).
