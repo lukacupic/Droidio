@@ -17,7 +17,9 @@
     </p>
 </div>
 <div class=bottom>
-    Coded by <a href="https://github.com/lukacupic">Luka Cupic</a>
+    Data scavenged by Jawas.
+    Server setup by R2-D2.
+    Website coded by <a href="https://github.com/lukacupic">Luka Cupic</a>.
 </div>
 <script>
 function generateWord() {
