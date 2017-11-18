@@ -26,6 +26,7 @@ div.center button {
 
 div.bottom {
     font-family: "Helvetica-Normal", sans-serif;
+    font-size: 15px;
     position: absolute;
     bottom: 0;
     left: 50%;
