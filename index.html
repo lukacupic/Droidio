@@ -12,6 +12,7 @@
 
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/cursor.css">
     <link rel="stylesheet" href="resources/icons/css/starwars-glyphicons.css">
 </head>
 
@@ -26,12 +27,12 @@
     </div>
 
     <div class="center">
-        <div id="phrase" class="phrase center-top"></div>
-        <div><button type="button" class="button" onclick="generate()">Generate</button></div>
+        <div id="phrase" class="phrase center-top cursor">|</div>
+        <div><button id="button" type="button" class="button" onclick="generate(); changeContent()">Click to generate</button></div>
     </div>
 
     <div class="bottom">
-        Made by <a href="https://github.com/lukacupic" target="_blank" rel="noopener noreferrer">l.c.</a> with ❤
+        Made by <a href="https://github.com/lukacupic" target="_blank" rel="noopener noreferrer">L.C.</a> with ❤
     </div>
 
     <script src="scripts/script.js"></script>

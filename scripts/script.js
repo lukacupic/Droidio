@@ -1,14 +1,21 @@
-/**
- * Cached array of phrases.
- */
 var phrases;
+var first = true;
 
 /**
  * Generates a new SW phrase.
  */
 function generate() {
     var phrase = phrases[getRandomInt(phrases.length - 1)];
-    document.getElementById("phrase").innerHTML = phrase
+    document.getElementById("phrase").innerHTML = phrase;
+}
+
+/**
+ * Updates phrase contents and button text after the user has clicked
+ * the button for the first time.
+ */
+function changeContent() {
+    var phrase = document.getElementById("phrase");
+    phrase.classList.remove("cursor");
 }
 
 /**
