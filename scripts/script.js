@@ -8,7 +8,7 @@ var phrases;
  */
 function generate() {
     var phrase = phrases[getRandomInt(phrases.length - 1)];
-    document.getElementById("phrase").innerHTML = "<h2>" + phrase + "</h2>"
+    document.getElementById("phrase").innerHTML = phrase
 }
 
 /**

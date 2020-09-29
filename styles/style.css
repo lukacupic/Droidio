@@ -1,14 +1,54 @@
-body {
-    background-color: #d0e4fe;
+@font-face {
+    font-family: "Bungee";
+    src: url("/resources/fonts/bungee/bungee-webfont.woff") format("woff");
 }
 
-h1 {
-    color: orange;
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+body {
+    background-color: #181a1b;
+    font-family: "Helvetica-Normal", sans-serif;
+    color: white;
+}
+
+body::after {
+    content: "";
+    background: url("/resources/images/stars-planet.png");
+    background-size: cover;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+div.top {
+    font-family: "Bungee";
+    font-weight: bold;
+    font-size: 42px;
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 
+div.desc {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -25px;
+}
+
 div.center {
-    font-family: "Helvetica-Normal", sans-serif;
     font-size: 27px;
     position: absolute;
     top: 50%;
@@ -17,20 +57,46 @@ div.center {
     text-align: center;
 }
 
-div.center button {
-    font-family: serif;
-    font-size: 18px;
-    position: absolute;
-    transform: translate(-50%, -50%);
+div.phrase {
+    font-family: "Bungee";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.button {
+    font-family: "Bungee";
+    font-weight: 900;
+    font-size: 20px;
+    background-color: transparent;
+    color: #ffffff94;
+	border-radius: 10px;
+	border: 1px solid;
+	display:inline-block;
+	cursor: pointer;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+
+.button:hover {
+    color: #ffffffc9;
+}
+
+.button:active {
+    color: #ffffff;
+	position:relative;
+}
+
+.button:focus {
+    outline-width: 0;
 }
 
 div.bottom {
-    font-family: "Helvetica-Normal", sans-serif;
-    font-size: 17px;
+    font-family: "Bungee";
+    font-size: 18px;
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
     text-align: center;
 }
 
