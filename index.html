@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Star Wars Phrase Generator</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luka Čupić">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="resources/icons/css/starwars-glyphicons.css">
+</head>
+
+<body onload="loadFile()">
+
+    <div class="center">
+        <div class="icons">
+            <i class="swg swg-trooper-ep7"></i>
+            <i class="swg swg-darthvader-o"></i>
+            <i class="swg swg-bobbafett-o"></i>
+        </div>
+
+        <b>Star Wars Phrase Generator</b>
+
+        <div id="phrase">
+            <h2>Click below to start</h2>
+        </div>
+        <p>
+            <button type="button" onclick="generate()">Generate</button>
+        </p>
+    </div>
+
+    <div class=bottom>
+        Data collected by <i style="font-size: 20px;" class="swg swg-r2d2-o"></i>. Code written by <a
+            href="https://github.com/lukacupic" target="_blank" rel="noopener noreferrer">Luka Čupić</a>.
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
