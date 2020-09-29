@@ -32,7 +32,7 @@ function loadFile() {
         }
     }
 
-    xhttp.open("GET", "data.txt", true);
+    xhttp.open("GET", "resources/data.txt", true);
     xhttp.send();
 }
 
