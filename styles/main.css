@@ -22,7 +22,7 @@ body {
 
 body::after {
     content: "";
-    background: url("/resources/images/stars-planet.png");
+    background: url("/resources/images/stars.jpg");
     background-size: cover;
     opacity: 0.75;
     top: 0;
@@ -113,7 +113,7 @@ a {
 @media only screen and (max-device-width: 500px) {
 
     body::after {
-        background: url("/resources/images/stars-mobile.png");
+        background: url("/resources/images/stars-mobile.jpg");
         background-size: cover;
         opacity: 0.75;
     }
