@@ -1,5 +1,5 @@
-# Star Wars Phrase Generator
-A simple tools for generator randomized phraases from the vast Star Wars universe.
+# Droidio — A Star Wars Phrase Generator
+Droidio is a simple tool for generating randomized phraases from the vast Star Wars universe.
 
 Ideal for Pictionary-like games, or just random geeky fun.
 
