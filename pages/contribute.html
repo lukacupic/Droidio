@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Droidio | A Star Wars Phrase Generator</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luka Čupić">
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../resources/icons/css/starwars-glyphicons.css">
+</head>
+
+<body onload="drawStars()" class="noselect">
+
+    <div class="top">
+        <i class="swg swg-r2d2-o"></i> CONTRIBUTE <i class="swg swg-c3po-o"></i>
+
+        <div class="desc">
+            Write your own shit
+        </div>
+    </div>
+
+    <div class="center">
+        <form action="/.netlify/functions/hello" method="get">
+            <label for="phrase">Enter a phrase:</label>
+            <input type="text" id="phrase" name="phrase"><br><br>
+            <button type="submit" class="button">Click to contribute</button>
+        </form>
+        <br>
+
+        <div><button type="button" class="button" onclick="showFile()">View the file</button></div>
+    </div>
+
+    <div class="bottom">
+        Made by <a href="https://github.com/lukacupic" target="_blank" rel="noopener noreferrer">L.C.</a> with ❤
+    </div>
+
+    <script src="../scripts/contribute.js"></script>
+</body>
+
+</html>
