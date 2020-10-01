@@ -1,11 +1,12 @@
 var phrases;
-var first = true;
 
 /**
  * Generates a new SW phrase.
  */
 function generate() {
-    var phrase = phrases[getRandomInt(phrases.length - 1)];
+    var hidden = ["Azsech", "Plexius"];
+    var phrase = getRandomElement(Math.random() > 0.999 ? hidden : phrases);
+    
     document.getElementById("phrase").innerHTML = phrase;
 }
 
@@ -19,11 +20,13 @@ function changeContent() {
 }
 
 /**
- * Returns a random integer between 0 and max (exclusive).
- * @param {the range in which to return a random number} max 
+ * Returns a random element from the given array.
+ * @param {the array from which a random element will be returned} array
  */
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
+function getRandomElement(array) {
+    var max = array.length - 1;
+    var index = Math.round(Math.random() * max);
+    return array[index];
 }
 
 /**
