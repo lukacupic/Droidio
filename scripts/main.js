@@ -1,12 +1,12 @@
 var phrases;
 
 /**
- * Generates a new SW phrase.
+ * Generates a new SW phrase. Might include some easter eggs.
  */
 function generate() {
-    var hidden = ["Azsech", "Plexius"];
-    var phrase = getRandomElement(Math.random() > 0.999 ? hidden : phrases);
-    
+    var hiddenPhrases = ["Azsech", "Plexius", "Mos Croatia Spaceport"];
+    var phrase = getRandomElement(Math.random() > 0.999 ? hiddenPhrases : phrases);
+
     document.getElementById("phrase").innerHTML = phrase;
 }
 
