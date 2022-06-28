@@ -5,5 +5,4 @@ Ideal for Pictionary-like games, or just random geeky fun.
 
 Currently live at: [droidio.netlify.app](https://droidio.netlify.app/)
 
-![alt text](https://lukacupic.github.io/backgrounds/Droidio.jpg)
-
+![alt text](https://lukacupic.github.io/assets/img/projects/Droidio.jpg)
